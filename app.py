@@ -2,7 +2,6 @@ import streamlit as st
 
 # Page configuration
 st.set_page_config(page_title="Special Message", page_icon="💖")
-st.balloons()
 
 # Title and Question
 st.title("Hi! Ekta kotha bolar chilo... 🥰")
@@ -17,7 +16,7 @@ col1, col2 = st.columns(2)
 with col1:
     if st.button("Yes! ❤️"):
         st.balloons()
-        st.success("Yayyy! I knew it! ummmmahhhhh! 🥰")
+        st.success("Yayyy! I knew it! ummmmahhhhh!alabiuuuuuu 🥰")
 
 with col2:
     if st.button("No 💔"):
