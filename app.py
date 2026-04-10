@@ -2,7 +2,7 @@ import streamlit as st
 
 # Page configuration
 st.set_page_config(page_title="Special Message", page_icon="💖")
-st.ballons()
+st.balloons()
 
 # Title and Question
 st.title("Hi! Ekta kotha bolar chilo... 🥰")
