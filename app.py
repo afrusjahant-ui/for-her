@@ -8,7 +8,7 @@ st.title("Hi! Ekta kotha bolar chilo... 🥰")
 st.subheader("Will you be my wifey?")
 
 # Cute GIF (apni চাইলে link change korte paren)
-st.image("https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExOHY5NjV2ZzR2ZzR2ZzR2ZzR2ZzR2ZzR2ZzR2ZzR2ZzR2ZzR/L40vR0Dk8W3sI/giphy.gif")
+st.image("https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExbjJvZTIzMHB1a2pkZGtsbHFxOGRrMjMyZnhiZzYwNTI2YXBkaXYwdiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/901mxGLGQN2PyCQpoc/giphy.gif")
 
 # Layout setup
 col1, col2 = st.columns(2)
