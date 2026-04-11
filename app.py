@@ -46,7 +46,7 @@ if yes_click:
     # 2. Notun celebration content
     st.balloons()
     # Ekhane ekta celebrate korar moto GIF use kora hoyeche
-    new_gif = "https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExbjJvZTIzMHB1a2pkZGtsbHFxOGRrMjMyZnhiZzYwNTI2YXBkaXYwdiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/901mxGLGQN2PyCQpoc/giphy.gif"
+    new_gif = "https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExZW10a213bG0ybGY4a3J1NGRwOGdvd29qdXBvejAzYXA1bWU1ZW4yaSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/1nUkRa68hPskXLOjIh/giphy.gif"
     st.image(new_gif)
     st.success("Yay! ummmmmmmahhhh babyyyyyy ❤️🥰")
 
