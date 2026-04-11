@@ -16,19 +16,19 @@ st.markdown(
     unsafe_allow_html=True
 )
 
-st.title("Hi! Ekta kotha bolar chilo... 😊")
+# --- Top Text Placeholder (Title ar Question-er jonno) ---
+text_placeholder = st.empty()
+with text_placeholder.container():
+    st.title("Hi! Ekta kotha bolar chilo... 😊")
+    st.subheader("Will you be my wifey?")
 
-# --- Image Placeholder (GIF er jonno) ---
+# --- Image Placeholder (GIF-er jonno) ---
 image_placeholder = st.empty()
 initial_gif = "https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExOHYwdWp3eGZ3eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4JmVwPXYxX2ludGVybmFsX2dpZl9ieV9pZCZjdD1n/4N1wOi78ZGzSB6H7vK/giphy.gif"
 image_placeholder.image(initial_gif)
 
-st.subheader("Will you be my wifey?")
-
-# --- Button Placeholder (Eitai button soraye felbe) ---
+# --- Button Placeholder (Button-er jonno) ---
 button_placeholder = st.empty()
-
-# Button gulo ke ekta container-e rakhlam
 with button_placeholder.container():
     col1, col2 = st.columns(2)
     with col1:
@@ -36,18 +36,20 @@ with button_placeholder.container():
     with col2:
         no_click = st.button("No! 💔")
 
-# --- Yes Click hole ki hobe ---
+# --- Yes Click hole shob kisu clear hobe ---
 if yes_click:
-    # 1. Button ar shurur GIF soraye fela
-    button_placeholder.empty()
+    # 1. Shob puraton content (Text, GIF, Buttons) vanish kora
+    text_placeholder.empty()
     image_placeholder.empty()
+    button_placeholder.empty()
     
-    # 2. Notun GIF ebong Balloons
+    # 2. Notun celebration content
     st.balloons()
-    new_gif = "https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExOGM4OWI3NWExODBhYTJmNTllN2NiODBlOTJjMDk1MmRlYzAyZGE2NSZlcD12MV9pbnRlcm5hbF9naWZzX2dpZklkJmN0PWc/tP1X48d7cW_9c5vJpE/giphy.gif"
+    # Ekhane ekta celebrate korar moto GIF use kora hoyeche
+    new_gif = "https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExOGc4OWI3NWExODBhYTJmNTllN2NiODBlOTJjMDk1MmRlYzAyZGE2NSZlcD12MV9pbnRlcm5hbF9naWZzX2dpZklkJmN0PWc/tP1X48d7cW_9c5vJpE/giphy.gif"
     st.image(new_gif)
     st.success("Yay! ummmmmmmahhhh babyyyyyy ❤️🥰")
 
-# --- No Click hole ki hobe ---
+# --- No Click hole error message dekhabe ---
 if no_click:
     st.error("Try again! 😜")
