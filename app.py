@@ -19,7 +19,7 @@ st.markdown(
 # --- Top Text Placeholder (Title ar Question-er jonno) ---
 text_placeholder = st.empty()
 with text_placeholder.container():
-    st.title("Hi! Ekta kotha bolar chilo... 😊")
+    st.title("Wanna ask you something 🥺")
     st.subheader("Will you be my wifey?")
 
 # --- Image Placeholder (GIF-er jonno) ---
