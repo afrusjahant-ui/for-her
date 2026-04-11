@@ -48,8 +48,8 @@ if yes_click:
     # Ekhane ekta celebrate korar moto GIF use kora hoyeche
     new_gif = "https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExZW10a213bG0ybGY4a3J1NGRwOGdvd29qdXBvejAzYXA1bWU1ZW4yaSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/1nUkRa68hPskXLOjIh/giphy.gif"
     st.image(new_gif)
-    st.success("Yay! ummmmmmmahhhh babyyyyyy ❤️🥰")
+    st.success("Yayyyyyy! ummmmmmmahhhh babyyyyyy ❤️🥰")
 
 # --- No Click hole error message dekhabe ---
 if no_click:
-    st.error("Oops! This button is broken. Try the other one😉")
+    st.error("Oops! This button is broken. Try the other one🙈")
