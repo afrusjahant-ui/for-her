@@ -24,7 +24,7 @@ with text_placeholder.container():
 
 # --- Image Placeholder (GIF-er jonno) ---
 image_placeholder = st.empty()
-initial_gif = "https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExOHYwdWp3eGZ3eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4JmVwPXYxX2ludGVybmFsX2dpZl9ieV9pZCZjdD1n/4N1wOi78ZGzSB6H7vK/giphy.gif"
+initial_gif = "https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExbjJvZTIzMHB1a2pkZGtsbHFxOGRrMjMyZnhiZzYwNTI2YXBkaXYwdiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/901mxGLGQN2PyCQpoc/giphy.gif"
 image_placeholder.image(initial_gif)
 
 # --- Button Placeholder (Button-er jonno) ---
@@ -52,4 +52,4 @@ if yes_click:
 
 # --- No Click hole error message dekhabe ---
 if no_click:
-    st.error("Try again! 😜")
+    st.error("Oops! This button is broken. Try the other one😉")
