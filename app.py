@@ -6,19 +6,16 @@ st.markdown(
     """
     <style>
     .stApp {
-        background-color: #ffeef2; /* Cute Pink Background */
+        background-color: #ffeef2; /* Background Pink */
     }
-    div[data-testid="stText"] {
-        color: #d81b60; /* Darker Pink Text Color */
+    /* Ei part-tuku shob lekha kalo korbe */
+    h1, h2, h3, p, span, div {
+        color: black !important; 
     }
     .stButton>button {
-        background-color: #ff8fa3; /* Button Background */
-        color: white; /* Button Text */
+        background-color: #ff8fa3;
+        color: white !important; /* Button-er lekha shada thakle bhalo dekhabe */
         border-radius: 20px;
-    }
-    .stButton>button:hover {
-        background-color: #e91e63; /* Hover Color */
-        color: white;
     }
     </style>
     """,
@@ -54,10 +51,10 @@ with col1:
         st.image(celebration_gif)
 
         # 3. Notun Success message
-        st.success("Yay! Love you to the moon and back! 💖🥰")
+        st.success("Yay! ummmmmmahhhh babyyyyyy 💖🥰")
 
 
 with col2:
     if st.button("No! 💔"):
-        st.error("Try again! I know you want to say yes! 😜")
+        st.error("Oops this button is broken! Try the other one")
 
